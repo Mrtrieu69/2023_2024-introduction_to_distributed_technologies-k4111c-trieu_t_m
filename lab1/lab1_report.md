@@ -51,5 +51,7 @@ spec:
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/4bfc46a3-bb59-466b-a3a9-d49b35358dc7)
 9. Используем учетные данные для аутентификации, после чего мы попадем на эту страницу.<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/1ea4c6fd-20ab-457c-a1c7-1e79b630482b)
-10. После чего, останавливаем minikube <br>
+10. После чего останавливаем minikube <br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/0fc0781d-ea1a-4844-a423-a4c82ced521e)
+11. Схема
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/e4511e9f-9e7f-4982-8f10-b64c5e276ccf)
