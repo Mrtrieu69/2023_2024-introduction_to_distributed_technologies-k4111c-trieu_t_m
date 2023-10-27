@@ -11,4 +11,28 @@ Date of finished:
 1. Запускаем minikube. <br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/c476cfba-236b-434a-be3b-40ebbbe356b1) <br>
 
-2. 
+2. Создаём файл деплоймента. <br>
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vault
+  labels:
+    owner: trieu
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vault
+  template:
+    metadata:
+      labels:
+        app: vault
+    spec:
+      containers:
+      - name: vault
+        image: vault:1.13.3
+        ports:
+        - containerPort: 8200
+```
+
