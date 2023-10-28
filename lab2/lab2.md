@@ -40,7 +40,7 @@ spec:
         - containerPort: 3000
 ```
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/c07a025b-09db-4116-a45d-1db733a51b8e)<br>
-3. Создаём службу, чтобы сделать наше развертывание доступным для внешнего трафика.<br>
+3. Создаём сервис, чтобы сделать наше развертывание доступным для внешнего трафика.<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/efda899d-77dc-4618-aa32-4f6e660bc3ef)<br>
 4. Запускаем режим переадресации портов для доступа к нашим контейнерам через браузер. <br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/2d881297-22c8-4858-93d3-73d32f93b434)<br>
