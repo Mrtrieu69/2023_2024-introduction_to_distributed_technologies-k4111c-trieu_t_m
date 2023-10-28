@@ -48,7 +48,7 @@ spec:
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/e180498f-b8cf-4566-9cfd-bbbe7181ae10)<br>
 соответствуют тем, которые были переданы в коде. Также указано название пода и айпи - оно может меняться в завимости от того, в какой под идёт запрос. У нас две реплики, в браузере отображается информация одной из них.<br>
 6. Логи контейнеров<br>
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/1a9c57d1-4cc0-432f-9b6a-8a5f20268e63)
-7. Схема
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/1a9c57d1-4cc0-432f-9b6a-8a5f20268e63)<br>
+7. Схема<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/9b81d124-a597-4220-a4d3-63632c3f193b)
 
