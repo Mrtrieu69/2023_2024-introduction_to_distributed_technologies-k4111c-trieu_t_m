@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: secretapp
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: values
+  namespace: secretapp
+data:
+  react_app_username: "trieutam"
+  react_app_company_name: "krayt"
+
+---
+
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: secretapp
+  namespace: secretapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: secretapp
+  template:
+    metadata:
+      labels:
+        tier: secretapp
+    spec:
+      containers:
+      - name: secretapp
+        image: ifilyaninitmo/itdt-contained-frontend:master
+        env:
+        - name: REACT_APP_USERNAME
+          valueFrom:
+            configMapKeyRef:
+              name: values
+              key: react_app_username
+        - name: REACT_APP_COMPANY_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: values
+              key: react_app_company_name
