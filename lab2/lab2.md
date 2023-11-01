@@ -50,5 +50,6 @@ spec:
 6. Логи контейнеров<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/1a9c57d1-4cc0-432f-9b6a-8a5f20268e63)<br>
 7. Схема<br>
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/9b81d124-a597-4220-a4d3-63632c3f193b)
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/e014e854-69d1-442f-8314-9bfcf9c69e23)
+
 
