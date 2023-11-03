@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: secretapp
+  namespace: secretapp
+spec:
+  tls:
+  - hosts:
+      - secretapp.info
+    secretName: secret-tls
+  rules:
+  - host: secretapp.info
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: secretapp
+            port:
+              number: 3000
