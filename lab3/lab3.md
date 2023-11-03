@@ -98,6 +98,8 @@ spec:
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/cc76d679-347c-4245-82e0-7b7dd0fc7257)<br>
 12. Наш сертификат.<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/004b2534-e28c-4ca6-b774-951c7a0468ae)<br>
+13. Схема<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/cbc78239-0d35-4d26-abfd-0d622cd9b6e9)
 
 
 
