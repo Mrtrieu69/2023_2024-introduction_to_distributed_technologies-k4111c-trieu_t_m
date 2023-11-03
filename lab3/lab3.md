@@ -95,9 +95,9 @@ spec:
 10. Отредактируем файл хостов, включив в него имя нашего хоста secretapp.info. <br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/47da0c8c-8a4c-4222-84e9-dff2ecad65c9)<br>
 11. Получаем доступ к приложению через браузер, используя имя хоста edu.info. <br>
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/01bf940a-3e30-4272-8953-e7aedf5fec3d)<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/cc76d679-347c-4245-82e0-7b7dd0fc7257)<br>
 12. Наш сертификат.<br>
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/3446b48b-cbc3-4b12-9735-648626c3c3a9)<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/004b2534-e28c-4ca6-b774-951c7a0468ae)<br>
 
 
 
