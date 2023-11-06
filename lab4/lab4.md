@@ -77,6 +77,7 @@ spec:
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/699d734b-3e93-4c90-a442-2422285b3d77)<br>
 5. Создаем сервис для получения доступа к сайту.<br> 
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/5b3e8912-185f-404e-938e-ddd3385a8c61)<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/5c8a5870-6422-470f-84cc-3e8ce0b6e4fb)<br>
 6. Заходим на под master и пингуем на второй под.<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/4204298f-f4ab-410a-9fd5-ae4369790e26)
 7. Схема<br>
