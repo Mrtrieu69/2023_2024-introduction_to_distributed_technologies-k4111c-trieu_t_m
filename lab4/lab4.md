@@ -39,3 +39,48 @@ spec:
   natOutgoing: true
   nodeSelector: name == "worker"
 ```
+Выполнив файл выше, получаем наши ippool.<br> 
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/39c03a4e-388d-4b22-bbd1-609723dd4285)
+4. Создаем файл для деплоя приложения и запускаем его. <br>
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: app
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  namespace: app
+spec:
+  selector:
+    matchLabels:
+      app: app
+  replicas: 2 
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+      - name: app
+        image: ifilyaninitmo/itdt-contained-frontend:master
+        env:
+        - name: REACT_APP_USERNAME
+          value: "trieutam "
+        - name: REACT_APP_COMPANY_NAME
+          value: "krayt"
+        ports:
+        - containerPort: 3000
+```
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/699d734b-3e93-4c90-a442-2422285b3d77)<br>
+5. Создаем сервис для получения доступа к сайту.<br> 
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/5b3e8912-185f-404e-938e-ddd3385a8c61)<br>
+6. Заходим на под master и пингуем на второй под.<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/4204298f-f4ab-410a-9fd5-ae4369790e26)
+7. Схема
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/f83317ff-b945-40cd-b447-4d477d030380)
+
+
+
