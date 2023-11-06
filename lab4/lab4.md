@@ -79,7 +79,7 @@ spec:
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/5b3e8912-185f-404e-938e-ddd3385a8c61)<br>
 6. Заходим на под master и пингуем на второй под.<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/4204298f-f4ab-410a-9fd5-ae4369790e26)
-7. Схема
+7. Схема<br>
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/f83317ff-b945-40cd-b447-4d477d030380)
 
 
