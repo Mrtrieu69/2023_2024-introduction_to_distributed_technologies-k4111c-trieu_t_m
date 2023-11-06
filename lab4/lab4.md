@@ -10,9 +10,11 @@ Date of finished:
 
 1. Запускаем миникуб с подключенным плагином калико и двумя нодами. <br>
 ```
-minikube start --driver=virtualbox --no-vtx-check --network-plugin=cni --cni=calico --nodes 2
+minikube start --network-plugin=cni --cni=calico --nodes 2 --driver=virtualbox --no-vtx-check 
 ```
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/3812aa13-451f-4513-a414-22a5d611409f)<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/1fc95693-65e9-43c2-8871-36973cb173f6)<br>
 Список нодов<br>
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/a21752c9-5b83-4d28-873c-be204922f611)<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/01b7fc61-e63f-4a6e-9b78-b4c98e8207d2)<br>
+Calico установлен<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/582c509c-db9a-4c95-acdc-46896ed20af7)<br>
 2. 
