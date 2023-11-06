@@ -14,5 +14,28 @@ minikube start --network-plugin=cni --cni=calico --nodes 2 --driver=docker --no-
 ```
 ![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/38c8eb2c-3b4d-42bc-8438-4077eadec78f)<br>
 Список нодов и Calico установлен<br>
-![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/19a46132-06f9-4310-9c54-fb673c10dff2)<br>
-2. 
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/6df865b0-fdcb-4089-970f-be4189ccc33b)<br>
+2. Ставим нодам лейблы.<br>
+![image](https://github.com/Mrtrieu69/2023_2024-introduction_to_distributed_technologies-k4111c-trieu_t_m/assets/87965299/43d683dd-d66d-4348-bcf8-92b729e44f80)<br>
+3. Создаем файл манифеста для назначения пула IP узлам на основе их меток.<br>
+```
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+  name: master-ippool
+spec:
+  cidr: 192.168.0.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: name == "master"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+  name: worker-ippool
+spec:
+  cidr: 192.168.1.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: name == "worker"
+```
